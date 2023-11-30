@@ -1,0 +1,20 @@
+### GET ALL COMMENTS
+GET http://localhost:4000/api/comments/all
+
+### GET COMMENT
+GET http://localhost:4000/api/comments/comment/644b7dabf66cb80c55317802
+
+### ADD COMMENT
+POST http://localhost:4000/api/comments/add
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlYjk2NTFjOTAxMWQxZTU4YTkxOGQiLCJmaXJzdE5hbWUiOiJNYXJrbyIsImxhc3ROYW1lIjoiTWFyayIsInJvbGUiOiJ1c2VyIiwidGltZSI6MTY5NzY0MzcwNTA3MiwiaWF0IjoxNjk3NjQzNzA1LCJleHAiOjE2OTc3MzAxMDV9.zAtCNY3DRn2hmYYWZso31KDziPQ5i1NmdtlXRlQ4Vxo
+
+{
+    "body": "Ovo je neki komentar!!!",
+    "postId": "644aedace62d6eb764d777b1"
+}
+
+### DELETE COMMENT
+DELETE http://localhost:4000/api/comments/644b7dabf66cb80c5531783d
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlYjk2NTFjOTAxMWQxZTU4YTkxOGQiLCJmaXJzdE5hbWUiOiJNYXJrbyIsImxhc3ROYW1lIjoiTWFyayIsInJvbGUiOiJ1c2VyIiwidGltZSI6MTY5NzU2MDk1NjM3NCwiaWF0IjoxNjk3NTYwOTU2LCJleHAiOjE2OTc2NDczNTZ9.qK25x--albW9K0vHYZZjqXk5dV2aCL7Ae-WzVaH8-8g

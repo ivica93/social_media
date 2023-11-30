@@ -1,0 +1,7 @@
+# PORT=4000
+# DB_USERNAME=kolega
+# DB_PASS=7qsDHLUhBfoSVaF3
+# DB_URL=mongodb+srv://zile028:91D4VPnV0MrxXcE@cluster0.igc3hx6.mongodb.net/?retryWrites=true&w=majority
+# JWT_KEY=socialnet
+
+# # DB_URL=mongodb+srv://kolega:7qsDHLUhBfoSVaF3@cluster1.w1jw6m8.mongodb.net/?retryWrites=true&w=majority
